@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+    display:flow-root;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000000;
+  overflow:auto;
+}
+
+h1{
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    size: 80px;
+}
+
+.intro{
+    margin-top: 300px;
+    margin-left: 250px;
+  display: flex;
+  position: absolute;
+}
+.intro .static-text{
+  color: #fff;
+  font-size: 60px;
+  font-weight: 400;
+}
+.intro .dynamic-txts{
+  margin-left: 15px;
+  height: 90px;
+  line-height: 90px;
+  overflow: hidden;
+}
+.dynamic-txts li{
+  list-style: none;
+  color: #90e6f7;
+  font-size: 60px;
+  font-weight: 500;
+  position: relative;
+  top: 0;
+  animation: slide 12s steps(4) infinite;
+}
+
+@keyframes slide {
+  100%{
+    top: -360px;
+  }
+}
+.dynamic-txts li span{
+  position: relative;
+  margin: 5px 0;
+  line-height: 90px;
+}
+.dynamic-txts li span::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: #000000;
+  border-left: 2px solid #8effc8;
+  animation: typing 3s steps(10) infinite;
+}
+@keyframes typing {
+  40%, 60%{
+    left: calc(100% + 10px);
+  }
+  100%{
+    left: 0;
+  }
+}
+
+.profile{
+    position:absolute;
+    bottom: 40%;
+    margin-left: 65%;
+    color:#fff;
+}
+
+.profile h2{
+    position: absolute;
+    justify-content: center;
+    left: 15%;
+}
+
+
+
+.footbar{
+    display:inline-flex;
+    gap: 60px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 40%;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.footbar a h1 {
+    color: #ffffff; /* Set the color to white */
+  }
+
+.poems{
+    color: #fff;
+
+}
