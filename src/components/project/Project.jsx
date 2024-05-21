@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import './Project.css';
 const Project = ({ title,description,imageUrl, codeLink, siteLink }) => {
   return (
