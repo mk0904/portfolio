@@ -1,20 +1,18 @@
 import { useState } from "react";
 import "./Header.css";
+import { BrowserRouter, Link } from "react-router-dom";
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <div className="Navbar">
-      <a href="/">
-        <span className="nav-logo">mk</span>
-      </a>
+    <BrowserRouter>
+      <div className="Navbar">
+      <Link style={{textDecoration:'none', color:"white", }} to="/"><span className="nav-logo">mk</span></Link>
 
       <div className={`nav-items ${isOpen && "open"}`}>
-        <a className="nav-logo" href="/">
-          <span>mk</span>
-        </a>
-        <a href="/projects">projects</a>
-        <a href="/skills">skills</a>
-        <a href="/aboutme">about me</a>
+          <Link to="/" className="nav-logo"><span>mk</span></Link>
+          <Link to="/projects">projects</Link>
+          <Link to="/skills">skills</Link>
+          <Link to="/aboutme">about me</Link>
       </div>
       <div
         className={`nav-toggle ${isOpen && "open"}`}
@@ -23,6 +21,7 @@ const Header = () => {
         <div className="bar"></div>
       </div>
     </div>
+    </BrowserRouter>
   );
 };
 

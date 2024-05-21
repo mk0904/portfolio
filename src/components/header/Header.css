@@ -112,7 +112,7 @@
       padding: 4px;
       border: 1px solid white;
     }
-    .Navbar > .nav-items > .nav-logo:hover {
+    .Navbar > .nav-items > .nav-logo > :hover {
       cursor: pointer;
       margin: 15px;
       color: rgb(255, 255, 255);

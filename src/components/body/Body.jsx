@@ -13,15 +13,15 @@ const Body = () => {
           <FaFilePdf className="icon" />
           CV
         </a>
-        <a href="https://github.com/your-github-username" target="_blank" className="button">
+        <a href="https://github.com/mk0904" target="_blank" className="button">
           <FaGithub className="icon" />
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/your-linkedin-profile" target="_blank" className="button">
+        <a href="https://www.linkedin.com/in/mk2004/" target="_blank" className="button">
           <FaLinkedin className="icon" />
           LinkedIn
         </a>
-        <a href="https://leetcode.com/your-leetcode-profile" target="_blank" className="button">
+        <a href="https://leetcode.com/u/mk0904/" target="_blank" className="button">
           <FaCode className="icon" />
           LeetCode
         </a>
