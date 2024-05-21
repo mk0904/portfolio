@@ -1,11 +1,13 @@
 
-import "./App.css";
-import Header from "./components/Header/Header";
+import Header from './components/header/Header.jsx';
+import './App.css';
+import Body from './components/body/Body.jsx';
 
-const App = () => {
+function App() {
   return (
-    <div>
+    <div className="App">
       <Header />
+      <Body />
     </div>
   );
 }
