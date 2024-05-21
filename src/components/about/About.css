@@ -6,15 +6,13 @@
      display: flex;
      flex-direction: column;
      text-align: center;
-     color: #000000; /* White text color */
+     color: #000000;
      border-radius: 10px;
    }
 
    .about-container p{
      margin-bottom: 30px;
    }
-   
-
    
    span {
      font-weight: bold;
