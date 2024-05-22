@@ -3,7 +3,7 @@ import './Body.css';
 
 const Body = () => {
   return (
-    <div className="body">
+    <div id='hero' className="body">
      <div className="text-container">
           <h1>hi!! I&apos;m <span>Manish Kumar</span></h1>
           <h3>A Frontend Developer</h3>

@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
   return (
-    <div className="about-container">
+    <div id='aboutme' className="about-container">
       <h1 id='about'>About Me</h1>
       <p>
         A first year undergrad in <span>Computer Science and Artificial Intelligence</span> at Newton School of Technology. I am a curious brain with a passion for learning something new every day. However, as of now, I am learning how to code. I belong to a small town in Odisha named <strong>Berhampur</strong>.

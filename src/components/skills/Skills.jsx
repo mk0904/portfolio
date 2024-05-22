@@ -13,7 +13,7 @@ function Skills() {
   ];
 
   return (
-    <div className="skills-container">
+    <div id='skills' className="skills-container">
       <h2 className='title'>My Skills</h2>
       <ul className='skills'>
         {techStacks.map((tech, index) => (

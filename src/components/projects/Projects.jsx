@@ -46,7 +46,7 @@ function Projects() {
   ];
 
   return (
-    <div className="main">
+    <div id="projects" className="main">
       <h1 className="title">Projects</h1>
       <div className="projects-container">
         {arrOfProjects.map((project, index) => (
